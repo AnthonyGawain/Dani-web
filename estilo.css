@@ -1,0 +1,63 @@
+.titulo {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff; /* Color de letras */
+  background-color: #212121; /* Color de fondo */
+  padding: 20px;
+}
+
+.subtitulo {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff; /* Color de letras */
+  background-color: #212121; /* Color de fondo */
+  margin-bottom: 50px;
+}
+
+.contenedor {
+  width: 100%;
+}
+
+.numeros {
+  width: 50%;
+  float: left;
+}
+
+.numero {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid black;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.letras {
+  width: 50%;
+  float: left;
+}
+
+.letra {
+  display: none;
+  padding: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.mostrar {
+  display: block !important;
+}
+
+.numero:hover, 
+.letra:hover {
+  background-color: yellow !important;
+}
+
+.numero:nth-child(even) {
+  background-color: #eee;
+}
+
+.letra:nth-child(even) {
+  background-color: #eee;
+}
